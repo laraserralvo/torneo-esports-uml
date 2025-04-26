@@ -49,3 +49,13 @@ UML para el modelado y Java para la implementación.
 
 En el diagrama podemos observar que en el sistema de Gestión de equipos y jugadores identifica dos actores; Administrador y Jugador. El Administrador es el responsable de gestionar equipos y jugadores, mientras que el jugador, es el usuario que puede cosultar los equipos y sus jugadores.
 
+En cuanto a los Casos de Uso, Registrar Equipo admite que el Administrador pueda dar de alta un nuevo equipo en el sistema. 
+
+En el caso de Añadir jugadores a un equipo, llega incluido del proceso de registro de un equipo, por ello tiene una relación de tipo include, que permite al Administrador incluir jugadores a la hora de crear un equipo.
+
+Y, por último, Consultar lista de equipos y jugadores permite tanto al Administrador como al Jugador poder ver la información dentro de equipos y jugadores.
+
+Por lo tanto, el Administrador tiene el control de todos los Casos de Uso. Se le permite registrar nuevos equipos y esto incluye en el proceso la acción de añadir jugadores. Edto se ve reflejado mediante la relación include. A su vez, los dos actores tienen acceso a consultar la información de la lista de equipos y jugadores.
+
+### Justificación Diagrama de clases UML
+
