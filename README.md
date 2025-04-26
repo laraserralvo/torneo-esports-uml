@@ -66,14 +66,18 @@ Las clases principales son:
 - Equipo
 - AdministracionEquipo(interfaz)
 
+#### Estructura
+
 - La clase Jugador tiene los siguientes atributos: dni: String, nombre: String, apellidos: String, posicion: String, numeroCamiseta: int, edad: int y nacionalidad: String. 
 
 En cuanto a sus métodos, cuenta con get y set para cada uno los atributos mencionados.
 
 - La clase Equipo tiene los siguientes atributos: nombreEquipo: String, ciudad: String, nombreEstadio: String y jugadores: List<Jugador>.
 
-En cuanto a sus métodos, cuenta con get y set para cada uno de los atributos y mostrarJugadores(): para la mostrar la lista de los jugadores del equipo.
+    En cuanto a sus métodos, cuenta con get y set para cada uno de los atributos y mostrarJugadores(): para la mostrar la lista de los jugadores del equipo.
 
 - La interfaz AdministracionEquipo es la que se encuentra implementada en Equipo. Esta tiene operaciones de gestión comunes como: añadirJugador, eliminarJugador, buscarJugador, inscribirEquipo, eliminarEquipo y mostrarEquipo.
+
+#### Relaciones entre clases
 
 Respecto a las relaciones entre clases, encontramos una agregación entre Jugador y Equipo, ya que el equipo cuenta con unos jugadores, pero al eliminar un equipo los jugadores siguen existiendo, solo que dejan de estar asignados a un equipo. Es decir, los jugadores podrian seguir cambiando de equipo o seguir existiendo anque su equipo desaparezca. También podemos ver una implementación de la interfaz AdministracionEquipo por parte de la clase Equipo.
