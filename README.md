@@ -37,10 +37,15 @@ UML para el modelado y Java para la implementación.
 ## Diagramas UML
 ### Diagrama de Casos de Uso
 
-![Diagrama de casos de uso](diagrams-casos-uso.png)
+![Diagrama de casos de uso](diagrams/casos-uso.png)
 
 ### Diagrama de Clases
 
-![Diagrama de clases](diagrams-clases.png)
+![Diagrama de clases](diagrams/clases.png)
 
 ## Justificación del diseño
+
+### Justificación Diagrama de Casos de Uso
+
+En el diagrama podemos observar que en el sistema de Gestión de equipos y jugadores identifica dos actores; Administrador y Jugador. El Administrador es el responsable de gestionar equipos y jugadores, mientras que el jugador, es el usuario que puede cosultar los equipos y sus jugadores.
+
