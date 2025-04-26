@@ -59,6 +59,8 @@ Por lo tanto, el Administrador tiene el control de todos los Casos de Uso. Se le
 
 ### Justificación Diagrama de clases UML
 
+#### Clases
+
 El sistema de Gestión de equipos y jugadores está formado por las siguientes clases y jugadores.
 
 Las clases principales son:
@@ -70,7 +72,7 @@ Las clases principales son:
 
 - La clase Jugador tiene los siguientes atributos: dni: String, nombre: String, apellidos: String, posicion: String, numeroCamiseta: int, edad: int y nacionalidad: String. 
 
-En cuanto a sus métodos, cuenta con get y set para cada uno los atributos mencionados.
+    En cuanto a sus métodos, cuenta con get y set para cada uno los atributos mencionados.
 
 - La clase Equipo tiene los siguientes atributos: nombreEquipo: String, ciudad: String, nombreEstadio: String y jugadores: List<Jugador>.
 
@@ -81,3 +83,7 @@ En cuanto a sus métodos, cuenta con get y set para cada uno los atributos menci
 #### Relaciones entre clases
 
 Respecto a las relaciones entre clases, encontramos una agregación entre Jugador y Equipo, ya que el equipo cuenta con unos jugadores, pero al eliminar un equipo los jugadores siguen existiendo, solo que dejan de estar asignados a un equipo. Es decir, los jugadores podrian seguir cambiando de equipo o seguir existiendo anque su equipo desaparezca. También podemos ver una implementación de la interfaz AdministracionEquipo por parte de la clase Equipo.
+
+## Conclusiones de aprendizaje
+
+La realización de este trabajo ha dado la oportunidad de reforzar y profundizar en los conocimientos relacionados al modelado de sistemas orientados a objetos, sobre todo, en la correcta aplicación de principios como clases, atributos, métodos y relaciones de agregación e implementación de interfaces. Gracias a la creación del diagrama de clases UML, se ha observado lo importate que es diseñar estructuras claras, coherentes y ampliables en un futuro.
