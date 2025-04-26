@@ -36,3 +36,11 @@ UML para el modelado y Java para la implementación.
 
 ## Diagramas UML
 ### Diagrama de Casos de Uso
+
+![Diagrama de casos de uso](diagrams-casos-uso.png)
+
+### Diagrama de Clases
+
+![Diagrama de clases](diagrams-clases.png)
+
+## Justificación del diseño
